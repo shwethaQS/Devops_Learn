@@ -1,3 +1,4 @@
+package newtest2;
 public class ArrayManipulate {
 
     public static void main(String[] args) {

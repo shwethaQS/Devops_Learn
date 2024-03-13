@@ -1,15 +1,16 @@
+package new_test;
 
-public class MyClass1 {
+public class norepeatingchar {
 
 public  char nonrepeatingchar(String str) {
 
-int[] charcount = new int[];
+int[] charcount = new int[256];
     for(char c:str.toCharArray()){
         charcount[c]++;
     }
     for(char c:str.toCharArray()){
         if(charcount[c]==1){
-            retun c;
+            return c;
         }
 
     }

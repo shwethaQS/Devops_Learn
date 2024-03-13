@@ -1,3 +1,4 @@
+package new_test;
 public class Firstnonrepeatingcharacter{
 
 public  static void main(String[] args){
